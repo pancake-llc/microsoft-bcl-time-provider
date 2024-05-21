@@ -1,8 +1,8 @@
 {
-  "name": "com.pancake.__package_name__",
-  "displayName": "__Package_Name__",
-  "description": "__Package_Description__",
-  "version": "1.0.0",
+  "name": "com.pancake.bcl.timeprovider",
+  "displayName": "Microsoft.Bcl.TimeProvider",
+  "description": "Microsoft.Bcl.TimeProvider provides time abstraction support for apps targeting .NET 7 and earlier, as well as those intended for the .NET Framework. For apps targeting .NET 8 and newer versions, referencing this package is unnecessary, as the types it contains are already included in the .NET 8 and higher platform versions.",
+  "version": "8.0.0",
   "unity": "2021.3",
   "category": "pancake",
   "author": {
@@ -16,17 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:pancake-llc/__name_repo_contain_package__.git",
-    "directory": "__Package_Display_Name__"
+    "url": "git@github.com:pancake-llc/microsoft-bcl-time-provider.git",
+    "directory": "Microsoft.Bcl.TimeProvider"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/@pancake-llc"
-  }/*,
-  "samples": [
-  {
-    "displayName": "__Sample Name__",
-    "description": "__Sample_Description__",
-    "path": "Samples~/__Name_Folder_Sample__"
   }
-]*/
 }
